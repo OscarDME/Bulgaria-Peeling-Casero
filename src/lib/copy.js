@@ -1,328 +1,354 @@
 // src/lib/copy.js
-// TODO el contenido visible de la landing vive aquí. Los componentes solo leen.
-// Idioma: Português brasileiro (pt-BR).
+// Цялото текстово съдържание на лендинг страницата е тук. Компонентите само го четат.
+// Език: Български (bg-BG) - Транскреация с директен маркетинг стил.
 
 export const copy = {
+  // Добавени текстове от заданието (реклами и допълнителни оферти/upsells)
+  campaign: {
+    adText: {
+      headline: "Разкрийте тайната 🔓",
+      body: "💫 Домашен пилинг с професионални резултати!\nПознавате ли онзи блясък и онази мека като кадифе кожа, която сякаш е след процедура в естетична клиника? 😍 Можете да го постигнете у дома, като похарчите стотинки за нанасяне!\nТози домашен пилинг:\n✨ Свива порите\n✨ Контролира омазняването\n✨ Изсветлява петната\n✨ Стимулира колагена\n✨ Прави кожата ви сияйна, озарена и подмладена\n👉 Кликнете на „Научете повече“ по-долу и разберете как да направите кожата си безупречна, без да пръскате цяло състояние."
+    },
+    upsells: [
+      {
+        title: "👁️ Гумичка за тъмни кръгове: Тайният трик за торбички и бръчки",
+        description: "Отличен избор! Вече имате пилинга за обновяване на лицето, но... кожата около очите е твърде тънка и деликатна за него. Перфектната кожа няма да ви помогне, ако тъмните кръгове ви добавят 10 години отгоре. Добавете това секретно ръководство с 15 микро-рецепти с лифтинг ефект, които спадат торбичките, изтриват тъмния цвят и изглаждат бръчките тип „пачи крак“ само за 5 минути. Подмладете погледа си мигновено, без никакви инжекции!"
+      },
+      {
+        title: "💆‍♀️ Ефектът „Лифтинг“: 5-минутен стягащ авто-масаж",
+        description: "Кожата ви ще има онзи невероятен блясък като след клиника, но... пилингът подобрява само текстурата, той не стяга отпуснатите мускули и не премахва двойната брадичка. Не позволявайте на гравитацията да съсипе визията ви. Добавете това визуално ръководство с тайните азиатски техники за лимфен дренаж и масаж на лицето, които стягат мускулатурата и скулптурират контура на челюстта. Постигнете визуален ефект на фейслифтинг, без изобщо да стъпвате в операционната!"
+      },
+      {
+        title: "💧 Естествен „Ботокс“: Серум за запълване на дълбоки бръчки",
+        description: "Вече имате формулата за свиване на порите и заличаване на повърхностните петна, но... какво правим с онези дълбоки мимически бръчки по челото и около устата? Пилинга обновява, но не запълва. Добавете тази тайна рецепта за ултра-концентриран домашен серум, който имитира филър ефекта на хиалуроновата киселина. Запълнете бръчките отвътре навън и запечатайте хидратацията в новата си кожа!"
+      },
+      {
+        title: "✋ Машина на времето: Таен протокол за шия и ръце",
+        description: "Пилингът ще преобрази лицето ви, но... 95% от жените допускат една фатална грешка: забравят шията и ръцете си – двете зони, които на секундата издават истинската ви възраст. Не допускайте да имате лице на 30 и ръце на 50 години. Добавете тази специално разработена формула, която уплътнява, стяга и премахва пигментацията от фината кожа на деколтето и горната част на ръцете. Подмладете цялостното си излъчване!"
+      }
+    ]
+  },
+
   hero: {
-    banner: "EXCLUSIVO PARA MULHERES QUE QUEREM REATIVAR O COLÁGENO DA PELE",
-    timerLabels: { days: "Dias", hours: "Horas", minutes: "Minutos", seconds: "Segundos" },
-    timerNote: "Oferta termina em",
-    eyebrow: "PEELING CASEIRO ANTI-IDADE",
+    banner: "ЕКСКЛУЗИВНО ЗА ЖЕНИ, КОИТО ИСКАТ ДА ВЪЗСТАНОВЯТ КОЛАГЕНА В КОЖАТА СИ",
+    timerLabels: { days: "Дни", hours: "Часа", minutes: "Минути", seconds: "Секунди" },
+    timerNote: "Офертата изтича след",
+    eyebrow: "ДОМАШЕН АНТИЕЙДЖ ПИЛИНГ",
     headline: {
-      line1: "Peeling caseiro com",
-      highlight: "resultado profissional",
-      line2: "sem sair de casa.",
+      line1: "Домашен пилинг с",
+      highlight: "професионални резултати",
+      line2: "без да излизате от вкъщи.",
     },
     subheadline:
-      "Economize tempo e dinheiro com uma receita testada e segura. Pele renovada, firme e iluminada em até 28 dias — desde a primeira aplicação.",
+      "Спестете време и пари с една изпитана и напълно безопасна рецепта. Обновена, стегната и сияйна кожа до 28 дни — още от първото нанасяне.",
     bullets: [
-      "Aplicação simples em menos de 20 minutos",
-      "Ingredientes acessíveis e seguros",
-      "Resultados visíveis já na primeira semana",
+      "Нанася се лесно за по-малко от 20 минути",
+      "Използва достъпни и напълно безопасни съставки",
+      "Гарантира видими резултати още през първата седмица",
     ],
-    cta: "SIM, QUERO REATIVAR MEU COLÁGENO",
-    secondaryNote: "Garantia incondicional de 7 dias",
-    imageAlt: "Mockup do curso Peeling Caseiro Anti-Idade",
+    cta: "ДА, ИСКАМ ДА ВЪЗСТАНОВЯ КОЛАГЕНА СИ",
+    secondaryNote: "14-дневна безусловна гаранция",
+    imageAlt: "Мокъп на курса Домашен Антиейдж Пилинг",
   },
 
   story: {
-    eyebrow: "O QUE NÃO TE CONTAM",
-    headline: "As dermatologistas não querem que você descubra isso.",
+    eyebrow: "ТОВА, КОЕТО КРИЯТ ОТ ВАС",
+    headline: "Дерматолозите не искат да разберете тази тайна.",
     paragraphs: [
-      "O ativo que clínicas de estética cobram caro para aplicar é o mesmo princípio que você pode preparar em casa, em poucos minutos, gastando uma fração do valor.",
-      "Pertence à família do ácido salicílico — comprovadamente eficaz na renovação celular, estímulo ao colágeno e atenuação de rugas, manchas e flacidez.",
-      "Por isso essa fórmula não circula em vídeos do YouTube nem em redes sociais. O mercado prefere que você continue pagando consultas caras todo mês.",
+      "Активната съставка, за която естетичните клиники ви взимат стотици левове, е същата, която можете да си приготвите у дома за броени минути, харчейки жълти стотинки.",
+      "Тя принадлежи към семейството на салициловата киселина — доказано ефективна за клетъчно обновяване, стимулиране на колагена и заличаване на бръчки, пигментни петна и отпускане на кожата.",
+      "Ето защо тази формула не се върти в YouTube или социалните мрежи. Индустрията предпочита да продължите да плащате за скъпи консултации всеки месец."
     ],
     highlights: [
-      { value: "R$ 15", label: "por aplicação em casa" },
-      { value: "28 dias", label: "para ver a transformação completa" },
-      { value: "1ª sessão", label: "para sentir a pele mais lisa" },
+      { value: "Под 1 €", label: "на процедура у дома" },
+      { value: "28 дни", label: "за пълна трансформация" },
+      { value: "1-ва сесия", label: "за да усетите кожата си по-гладка" },
     ],
-    cta: "QUERO O MEU PEELING AGORA",
-    industryImageAlt: "O segredo da indústria farmacêutica revelado",
-    scienceImageAlt: "Comprovação científica do peeling com ácido salicílico",
+    cta: "ИСКАМ МОЯ ПИЛИНГ СЕГА",
+    industryImageAlt: "Тайната на козметичната индустрия е разкрита",
+    scienceImageAlt: "Научно доказано действие на пилинга със салицилова киселина",
   },
 
   benefits: {
-    eyebrow: "O QUE SUA PELE VAI SENTIR",
-    headline: "Resultados que aparecem no espelho.",
+    eyebrow: "КАКВО ЩЕ УСЕТИ КОЖАТА ВИ",
+    headline: "Резултати, които виждате веднага в огледалото.",
     subheadline:
-      "Uma rotina simples, pensada para mulheres que querem aparência saudável sem depender de procedimentos caros.",
+      "Една лесна рутина, създадена за жени, които искат здрава и красива визия, без да зависят от скъпи процедури.",
     items: [
       {
-        title: "Rugas e linhas mais suaves",
-        desc: "Estímulo natural ao colágeno para amenizar marcas finas e profundas.",
+        title: "Изглажда фините и дълбоките бръчки",
+        desc: "Стимулира естественото производство на колаген, за да запълни несъвършенствата.",
       },
       {
-        title: "Pele mais firme e radiante",
-        desc: "Aspecto rejuvenescido com brilho saudável e textura aveludada.",
+        title: "Стяга кожата и възвръща блясъка",
+        desc: "Подмладява цялостното излъчване, оставяйки кожата кадифено мека и сияйна.",
       },
       {
-        title: "Manchas mais claras",
-        desc: "Renovação celular que ajuda a uniformizar o tom da pele.",
+        title: "Изсветлява пигментните петна",
+        desc: "Ускорява клетъчното обновяване, за да изравни тена на лицето ви.",
       },
       {
-        title: "Poros visivelmente reduzidos",
-        desc: "Pele mais lisa ao toque, com aparência refinada.",
+        title: "Свива видимо разширените пори",
+        desc: "Прави кожата съвършено гладка на допир с рафинирана и чиста текстура.",
       },
     ],
   },
 
   features: {
-    eyebrow: "O QUE VOCÊ VAI APRENDER",
-    headline: "6 módulos para transformar sua pele em 28 dias.",
-    subheadline: "Conteúdo direto ao ponto, sem enrolação. Você assiste, aplica e vê resultado.",
+    eyebrow: "КАКВО ЩЕ НАУЧИТЕ",
+    headline: "6 модула, които ще преобразят кожата ви за 28 дни.",
+    subheadline: "Конкретна и практична информация, без излишни приказки. Гледате, прилагате и виждате резултата.",
     items: [
       {
         n: "01",
-        title: "O Segredo das Pessoas que Não Envelhecem",
-        desc: "A mentalidade, os hábitos e a rotina das mulheres que envelhecem com qualidade.",
+        title: "Тайната на хората, които не остаряват",
+        desc: "Нагласата, навиците и рутината на жените, които остаряват красиво и с класа.",
       },
       {
         n: "02",
-        title: "Peeling Profissional e Barato",
-        desc: "A fórmula secreta com 3 ingredientes acessíveis: aspirina, vinagre e óleo.",
+        title: "Професионален пилинг за стотинки",
+        desc: "Тайната формула с 3 достъпни съставки: аспирин, оцет и натурално масло.",
       },
       {
         n: "03",
-        title: "Shot Anti-Idade para Estimular Colágeno",
-        desc: "Receita detox para apoiar o estímulo natural do colágeno por dentro.",
+        title: "Антиейдж шот за ударна доза колаген",
+        desc: "Детокс рецепта, която стимулира производството на колаген отвътре навън.",
       },
       {
         n: "04",
-        title: "Protocolo Sangue de Dragão",
-        desc: "Como usar o ativo amazônico para acelerar a recuperação pós-peeling.",
+        title: "Протокол „Драконова кръв“",
+        desc: "Как да използвате тази мощна смола за бързо възстановяване след пилинг.",
       },
       {
         n: "05",
-        title: "Técnicas de Aplicação Profissional",
-        desc: "Passo a passo de como preparar e aplicar o peeling com gaze esterilizada.",
+        title: "Професионални техники за нанасяне",
+        desc: "Стъпка по стъпка: как да приготвите и нанесете пилинга със стерилна марля.",
       },
       {
         n: "06",
-        title: "Resultados Visíveis e Segurança",
-        desc: "Cronograma de aplicação: pele mais lisa em 7 dias, transformação em 28.",
+        title: "Видими резултати и безопасност",
+        desc: "График за нанасяне: по-гладка кожа за 7 дни, пълна трансформация за 28.",
       },
     ],
   },
 
   targetAudience: {
-    eyebrow: "ESSE CURSO É PRA VOCÊ SE…",
-    headline: "Você se reconhece em alguma destas situações?",
+    eyebrow: "ТОЗИ КУРС Е ЗА ВАС, АКО...",
+    headline: "Припознавате ли се в някоя от тези ситуации?",
     items: [
       {
-        title: "Sua pele está opaca, áspera e sem brilho",
-        desc: "Mesmo com cremes caros, a pele continua sem vida e cansada.",
-        imageAlt: "Mulher com pele opaca e sem viço",
+        title: "Кожата ви е повяхнала, груба и без блясък",
+        desc: "Дори със скъпи кремове, лицето ви продължава да изглежда уморено и безжизнено.",
+        imageAlt: "Жена с повяхнала и уморена кожа",
       },
       {
-        title: "As rugas estão ficando mais profundas",
-        desc: "As marcas de expressão começaram a se acentuar e te incomodam.",
-        imageAlt: "Pele com rugas profundas",
+        title: "Бръчките ви стават все по-дълбоки",
+        desc: "Мимическите линии започват да се вдълбават и това ви кара да се чувствате некомфортно.",
+        imageAlt: "Кожа с дълбоки бръчки",
       },
       {
-        title: "Depois dos 35 a pele começou a cair",
-        desc: "A firmeza foi embora e a flacidez começou a aparecer.",
-        imageAlt: "Pele com flacidez",
+        title: "След 35-годишна възраст контурът се отпусна",
+        desc: "Стегнатостта изчезна и гравитацията започна да си казва думата.",
+        imageAlt: "Отпусната кожа на лицето",
       },
       {
-        title: "Os cosméticos caros não estão funcionando",
-        desc: "Você já gastou centenas em produtos que prometem e não entregam.",
-        imageAlt: "Produtos cosméticos que não funcionam",
+        title: "Скъпата козметика просто не работи",
+        desc: "Вече сте пръснали стотици левове за продукти, които обещават чудеса, но не вършат нищо.",
+        imageAlt: "Скъпи, но неефективни козметични продукти",
       },
     ],
   },
 
   howItWorks: {
-    eyebrow: "PASSO A PASSO",
-    headline: "Aplicação simples, segura e em casa.",
+    eyebrow: "СТЪПКА ПО СТЪПКА",
+    headline: "Лесно и безопасно нанасяне у дома.",
     subheadline:
-      "Você precisa apenas de 20 minutos e três ingredientes que cabem na sua bolsa.",
+      "Нужни са ви само 20 минути и три съставки, които вероятно вече имате в кухненския шкаф.",
     steps: [
       {
         n: "01",
-        title: "Prepare a fórmula",
-        desc: "Misture os ingredientes nas proporções ensinadas no vídeo. Tudo é caseiro e acessível.",
+        title: "Пригответе формулата",
+        desc: "Смесете съставките в точните пропорции, показани във видеото. Всичко е домашно и достъпно.",
       },
       {
         n: "02",
-        title: "Aplique com a gaze esterilizada",
-        desc: "Movimentos suaves no rosto seguindo a técnica profissional. Sem dor, sem queimação.",
+        title: "Нанесете със стерилна марля",
+        desc: "Използвайте нежни движения по лицето, следвайки професионалната техника. Без болка, без парене.",
       },
       {
         n: "03",
-        title: "Resultado em dias",
-        desc: "Pele mais lisa em 7 dias. Em 28 dias, a transformação completa: viço, firmeza e luminosidade.",
+        title: "Насладете се на резултатите",
+        desc: "По-гладка кожа само след 7 дни. А след 28 дни – пълна трансформация: свежест, стегнатост и блясък.",
       },
     ],
-    leftImageAlt: "Mulher aplicando o peeling caseiro com gaze",
-    rightImageAlt: "Resultado antes e depois do peeling caseiro",
+    leftImageAlt: "Жена нанася домашен пилинг с марля",
+    rightImageAlt: "Резултат преди и след домашния пилинг",
   },
 
   carouselSection: {
-    eyebrow: "RESULTADOS REAIS",
-    headline: "Mulheres reais. Transformações reais.",
-    subheadline: "Veja o antes e depois de quem aplicou o protocolo em casa.",
-    cta: "QUERO ESSES RESULTADOS",
+    eyebrow: "ИСТИНСКИ РЕЗУЛТАТИ",
+    headline: "Истински жени. Истински трансформации.",
+    subheadline: "Вижте снимките преди и след на жени, които приложиха протокола у дома.",
+    cta: "ИСКАМ ТЕЗИ РЕЗУЛТАТИ",
   },
 
   bonuses: {
-    badge: "TUDO INCLUSO",
-    headline: "O que você recebe ao garantir hoje",
-    subheadline: "Acesso vitalício ao curso completo + bônus exclusivos.",
+    badge: "ВСИЧКО ВКЛЮЧЕНО",
+    headline: "Какво получавате, ако поръчате днес",
+    subheadline: "Доживотен достъп до пълния курс + ексклузивни бонуси.",
     items: [
       {
-        title: "Acesso à plataforma ES Vídeos",
-        desc: "A maior plataforma de estética e saúde do Brasil — incluído na compra.",
+        title: "Достъп до платформата ES Video",
+        desc: "Най-голямата платформа за здраве и естетика – включена в цената.",
       },
       {
-        title: "Vídeo da Receita Secreta do Peeling",
-        desc: "A fórmula completa, com proporções exatas e demonstração prática.",
+        title: "Видео с тайната рецепта за пилинга",
+        desc: "Пълната формула с точните пропорции и практическа демонстрация.",
       },
       {
-        title: "Shot Anti-Idade para Colágeno",
-        desc: "Receita do drinque detox que potencializa o resultado por dentro.",
+        title: "Антиейдж шот за колаген",
+        desc: "Рецепта за детокс напитка, която подсилва ефекта отвътре навън.",
       },
       {
-        title: "Protocolo Sangue de Dragão",
-        desc: "Vídeo passo a passo de recuperação pós-peeling com o ativo amazônico.",
+        title: "Протокол „Драконова кръв“",
+        desc: "Видео стъпка по стъпка за възстановяване след пилинг с мощната смола.",
       },
       {
-        title: "Guia Passo a Passo em PDF",
-        desc: "Material em PDF para imprimir e seguir cada aplicação com segurança.",
+        title: "Ръководство стъпка по стъпка (PDF)",
+        desc: "Удобен PDF материал за принтиране, за да следвате всяко нанасяне безопасно.",
       },
     ],
   },
 
   testimonials: {
-    eyebrow: "DEPOIMENTOS",
-    headline: "Você não precisa acreditar em mim. Acredite nessas mulheres.",
+    eyebrow: "ОТЗИВИ",
+    headline: "Не е нужно да вярвате на мен. Повярвайте на тези жени.",
     items: [
       {
-        name: "Mariana",
-        role: "São Paulo, SP",
+        name: "Мария",
+        role: "София",
         quote:
-          "Eu tinha medo de mexer na pele em casa. Segui o passo a passo e a diferença na primeira semana já era visível. Hoje sou outra pessoa no espelho.",
+          "Страхувах се да третирам лицето си сама у дома. Но следвах стъпките и разликата още през първата седмица беше видима. Днес съм съвсем нов човек, когато се погледна в огледалото.",
       },
       {
-        name: "Cláudia",
-        role: "Belo Horizonte, MG",
+        name: "Елена",
+        role: "Пловдив",
         quote:
-          "Gastava fortuna em clínica e não conseguia manter. Em casa eu aplico tranquila, sem dor e o custo é ridículo perto do resultado.",
+          "Хвърлях луди пари по клиники и не можех да си го позволя постоянно. Вкъщи го правя спокойно, без болка, а цената е направо смешна на фона на резултатите.",
       },
       {
-        name: "Renata",
-        role: "Curitiba, PR",
+        name: "Силвия",
+        role: "Варна",
         quote:
-          "Minhas amigas perguntaram o que eu estava fazendo. As manchinhas clarearam e a textura ficou lisinha. Recomendo sem pensar.",
+          "Приятелките ме питат какво съм си правила. Петънцата избледняха, а кожата ми стана гладка като коприна. Препоръчвам с две ръце.",
       },
     ],
-    socialBadge: "REAIS DAS REDES SOCIAIS",
-    socialHeadline: "Depoimentos reais das alunas",
-    socialAlt: "Depoimentos de alunas no Instagram",
+    socialBadge: "РЕАЛНИ ОТЗИВИ ОТ МРЕЖИТЕ",
+    socialHeadline: "Истински коментари от нашите курсисти",
+    socialAlt: "Отзиви от курсисти в Instagram",
   },
 
   finalCta: {
-    badge: "OFERTA POR TEMPO LIMITADO",
-    headline: "Comece hoje. Garantia de 7 dias.",
+    badge: "ОФЕРТА ЗА ОГРАНИЧЕНО ВРЕМЕ",
+    headline: "Започнете днес. 14-дневна гаранция.",
     guaranteeText:
-      "Se em 7 dias você não amar os resultados, devolvemos 100% do seu dinheiro. Sem perguntas, sem burocracia. O risco é todo meu.",
-    bundleHeadline: "O que você leva ao clicar agora",
+      "Ако в рамките на 14 дни не се влюбите в резултатите, ще ви възстановим 100% от сумата. Без излишни въпроси, без бюрокрация. Целият риск е мой.",
+    bundleHeadline: "Какво получавате, когато кликнете сега",
     bundleList: [
-      "Curso completo do Peeling Anti-Idade",
-      "Shot Anti-Idade para Colágeno",
-      "Protocolo Sangue de Dragão",
-      "Guia passo a passo em PDF",
-      "Acesso vitalício à plataforma ES Vídeos",
+      "Пълния курс Домашен Антиейдж Пилинг",
+      "Антиейдж шот за ударна доза колаген",
+      "Протокол за възстановяване „Драконова кръв“",
+      "Ръководство стъпка по стъпка в PDF формат",
+      "Доживотен достъп до платформата ES Video",
     ],
-    regularPriceLabel: "De",
-    regularPrice: "R$ 97,90",
-    offerLabel: "Por apenas",
-    offerPrice: "R$ 47,00",
-    installments: "ou em até 12x no cartão",
-    economy: "Economia de 49%",
-    urgencyText: "Oferta válida apenas hoje",
-    button: "QUERO REATIVAR MEU COLÁGENO AGORA",
-    secureNote: "Compra 100% segura · Pagamento processado pela OrioPay",
-    imageAlt: "Mockup do Peeling Caseiro Anti-Idade",
-    guaranteeImageAlt: "Selo de garantia de 7 dias",
+    regularPriceLabel: "От",
+    regularPrice: "19,90 €",
+    offerLabel: "Само за",
+    offerPrice: "7,90 €",
+    installments: "Еднократно плащане",
+    economy: "Спестявате 60%",
+    urgencyText: "Офертата е валидна само днес",
+    button: "ИСКАМ ДА ВЪЗСТАНОВЯ КОЛАГЕНА СИ СЕГА",
+    secureNote: "100% сигурно плащане · Обработено от OrioPay",
+    imageAlt: "Мокъп на курса Домашен Антиейдж Пилинг",
+    guaranteeImageAlt: "Печат за 14-дневна гаранция",
   },
 
   about: {
-    eyebrow: "QUEM ESTÁ POR TRÁS",
-    title: "A Esteticista dos Famosos",
-    name: "Patrícia Elias",
+    eyebrow: "КОЙ СТОИ ЗАД ТОВА",
+    title: "Естетикът на известните",
+    name: "Петя Георгиева",
     paragraphs: [
-      "Patrícia Elias é referência nacional em estética facial e cuidado da pele. Desenvolveu protocolos naturais para manchas, melasma, acne e queda capilar que já ajudaram milhares de mulheres a recuperar a autoestima.",
-      "É criadora da Clínica Patrícia Elias e da loja de dermocosméticos da marca. Comanda o maior canal de saúde e beleza no YouTube em português, com 7,68 milhões de inscritos.",
-      "Sua proposta é simples: resultado real, com carinho e ciência — sem depender de tratamentos caros ou produtos importados.",
+      "Петя Георгиева е национален експерт в областта на лицевата естетика и грижата за кожата. Тя разработи натурални протоколи за премахване на петна, мелазма, акне и косопад, които вече помогнаха на хиляди жени да възвърнат самочувствието си.",
+      "Тя е основател на собствена клиника и марка дермокозметика. Управлява най-големия канал за здраве и красота в YouTube в България, с милиони последователи.",
+      "Нейната философия е проста: истински резултати, с много грижа и наука — без да сте зависими от безбожно скъпи процедури или вносни продукти.",
     ],
     stats: [
-      { value: "7,68M", label: "Inscritos no YouTube" },
-      { value: "+1.000", label: "Mulheres atendidas" },
-      { value: "Brasil", label: "Referência em pele" },
+      { value: "7,68М", label: "Абонати в YouTube" },
+      { value: "+1 000", label: "Обслужени жени" },
+      { value: "България", label: "Еталон в грижата за кожата" },
     ],
-    photoAlt: "Patrícia Elias, esteticista referência no Brasil",
+    photoAlt: "Петя Георгиева, водещ естетичен експерт в България",
   },
 
   faq: {
-    eyebrow: "DÚVIDAS FREQUENTES",
-    headline: "Tudo o que você precisa saber antes de garantir.",
+    eyebrow: "ЧЕСТО ЗАДАВАНИ ВЪПРОСИ",
+    headline: "Всичко, което трябва да знаете, преди да поръчате.",
     items: [
       {
-        q: "O que estou comprando exatamente?",
-        a: "Você está adquirindo o mini-curso digital do Peeling Caseiro Anti-Idade, com acesso à plataforma ES Vídeos. O conteúdo ensina a fórmula, a aplicação correta, o shot anti-idade e o protocolo de segurança.",
+        q: "Какво точно купувам?",
+        a: "Купувате дигиталния мини-курс „Домашен Антиейдж Пилинг“ с достъп до платформата ES Video. Съдържанието ви учи на точната формула, правилното нанасяне, рецептата за антиейдж шот и протокола за безопасност.",
       },
       {
-        q: "O que vem incluso na compra?",
-        a: "Vídeo com a fórmula secreta, guia detalhado em PDF e acesso à plataforma ES Vídeos com cursos e conteúdos complementares.",
+        q: "Какво е включено в цената?",
+        a: "Видео с тайната формула, подробно PDF ръководство и достъп до платформата ES Video с допълнителни курсове и материали.",
       },
       {
-        q: "Como vou receber o conteúdo?",
-        a: "Após a aprovação do pagamento você recebe por e-mail o link da plataforma com o vídeo e o guia em PDF. Verifique também a caixa de spam. A entrega costuma sair em poucos minutos.",
+        q: "Как ще получа съдържанието?",
+        a: "Веднага след успешно плащане ще получите имейл с линк към платформата, където се намират видеото и PDF ръководството. Проверете и папката Спам. Доставката обикновено отнема броени минути.",
       },
       {
-        q: "Em quanto tempo após a compra eu recebo o material?",
-        a: "A entrega é imediata após a aprovação do pagamento — geralmente em minutos.",
+        q: "Колко време след покупката получавам достъп?",
+        a: "Доставката е автоматична и мигновена след одобрение на плащането — най-често до минута.",
       },
       {
-        q: "Quem pode fazer o Peeling Caseiro?",
-        a: "Indicado para mulheres e homens a partir dos 35 anos que querem reativar o colágeno e reduzir rugas, manchas e falta de viço. Não é indicado para quem tem alergia à aspirina, pele extremamente sensível ou feridas abertas. Teste de alergia é obrigatório antes da primeira aplicação.",
+        q: "Кой може да си прави този Домашен Пилинг?",
+        a: "Подходящ е за жени и мъже над 35 години, които искат да стимулират производството на колаген, да намалят бръчките, петната и липсата на блясък. Не се препоръчва за хора с алергия към аспирин, изключително чувствителна кожа или отворени рани. Тестът за алергия е задължителен преди първото нанасяне.",
       },
       {
-        q: "Funciona mesmo?",
-        a: "Sim. O princípio ativo (ácido acetilsalicílico) pertence à mesma família dos ácidos usados em clínica para renovação celular: remove a camada de células mortas e estimula colágeno. O resultado é comparável a peelings superficiais a uma fração do custo.",
+        q: "Наистина ли работи?",
+        a: "Да. Активната съставка (ацетилсалицилова киселина) принадлежи към същото семейство киселини, които се използват в клиниките за клетъчно обновяване: тя премахва слоя мъртви клетки и стимулира колагена. Резултатът е сравним с повърхностен химичен пилинг, но на минимална цена.",
       },
       {
-        q: "Como são ministradas as aulas e o conteúdo?",
-        a: "Em vídeo-aulas combinadas com textos informativos, em formato simples e direto ao ponto.",
+        q: "Как са представени уроците?",
+        a: "Чрез видео уроци, комбинирани с информативни текстове, в изключително лесен за разбиране и директен формат.",
       },
       {
-        q: "Há garantia de satisfação?",
-        a: "Sim. Você tem 7 dias para testar. Se não ficar satisfeita, basta entrar em contato com o suporte e devolvemos 100% do valor, sem perguntas.",
+        q: "Има ли гаранция за удовлетвореност?",
+        a: "Да. Имате 14 дни, за да тествате метода. Ако не сте доволни, просто се свържете с нашия екип по поддръжка и ще ви възстановим 100% от сумата, без никакви въпроси.",
       },
     ],
   },
 
   closing: {
-    eyebrow: "POR POUCO TEMPO",
-    headline: "Sua pele pode estar diferente em 28 dias.",
-    body: "A decisão é simples: continuar gastando com cremes que não funcionam, ou investir uma única vez em um método natural, prático e com garantia incondicional.",
-    cta: "QUERO COMEÇAR AGORA",
-    timerNote: "Oferta termina em",
-    timerLabels: { days: "Dias", hours: "Horas", minutes: "Minutos", seconds: "Segundos" },
+    eyebrow: "ЗА ОГРАНИЧЕНО ВРЕМЕ",
+    headline: "Кожата ви може да изглежда коренно различно след 28 дни.",
+    body: "Изборът е лесен: продължете да хвърляте пари за кремове, които не работят, или инвестирайте еднократно в натурален, практичен метод с безусловна гаранция.",
+    cta: "ИСКАМ ДА ЗАПОЧНА СЕГА",
+    timerNote: "Офертата изтича след",
+    timerLabels: { days: "Дни", hours: "Часа", minutes: "Минути", seconds: "Секунди" },
   },
 
   footer: {
-    brand: "Patrícia Elias",
-    tagline: "Beleza com ciência e carinho.",
-    rights: "Todos os direitos reservados.",
+    brand: "Петя Георгиева",
+    tagline: "Красота, създадена с наука и грижа.",
+    rights: "Всички права запазени.",
     legalLinks: [
-      { label: "Política de Privacidade", href: "#" },
-      { label: "Termos de Uso", href: "#" },
+      { label: "Политика за поверителност", href: "#" },
+      { label: "Условия за ползване", href: "#" },
     ],
     disclaimer:
-      "Este site não é afiliado a Facebook ou Meta. Resultados podem variar de acordo com cada organismo.",
+      "Този сайт не е свързан с Facebook или Meta. Резултатите могат да варират индивидуално при всеки организъм.",
   },
 
   pixel: {
@@ -330,16 +356,16 @@ export const copy = {
   },
 
   a11y: {
-    skipToContent: "Pular para o conteúdo",
-    faqExpand: "Expandir resposta",
-    faqCollapse: "Recolher resposta",
-    carouselPrev: "Imagem anterior",
-    carouselNext: "Próxima imagem",
+    skipToContent: "Премини към съдържанието",
+    faqExpand: "Разгърни отговора",
+    faqCollapse: "Скрий отговора",
+    carouselPrev: "Предишна снимка",
+    carouselNext: "Следваща снимка",
   },
 
   metadata: {
-    title: "Peeling Caseiro Anti-Idade | Patrícia Elias",
+    title: "Домашен Антиейдж Пилинг | Петя Георгиева",
     description:
-      "Aprenda o peeling caseiro com resultado profissional. Pele renovada, firme e iluminada em até 28 dias. Garantia de 7 dias.",
+      "Научете как да си направите домашен пилинг с професионални резултати. Обновена, стегната и сияйна кожа до 28 дни. 14-дневна гаранция.",
   },
 };
